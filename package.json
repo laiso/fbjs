@@ -8,7 +8,6 @@
     "build": "gulp build",
     "lint": "eslint .",
     "prepublish": "npm run build",
-    "pretest": "node node_modules/fbjs-scripts/node/check-dev-engines.js package.json",
     "test": "NODE_ENV=test jest",
     "typecheck": "flow check src"
   },
